@@ -1,0 +1,62 @@
+.header-span {
+  /* background-color: pink; */
+  display: grid;
+  height: 6vh;
+  grid-template-columns: 20% 80%;
+  border-style: solid;
+  border-width: thin;
+  background-color:	#F6D5C6;
+}
+
+.left-part {
+  /* background-color: gray; */
+  font-size: 30px;
+  text-decoration: none;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #355176;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5vh;
+}
+
+.right-part {
+  /* background-color: red; */
+  text-align: right;
+  padding-right: 10%;
+  font-size: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #355176;
+  justify-content: center;
+}
+
+.right-part-button {
+  height: 4vh;
+  font-size: 18px;
+  font-family: 'Merriweather Sans', sans-serif;
+  /* color: 	#BA6749; */
+  color: #355176;
+  margin: 1vh;
+  border-radius: 1vh;
+}
+
+.right-part-button:focus {
+  background-color: #ebebeb;
+  outline: 0;
+}
+
+.user_name {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 1vh;
+  border-radius: 1vh;
+  color: #355176;
+  border-color: #F6D5C6;
+  background-color: #F6D5C6;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.user_name:focus {
+  background-color: #ebebeb;
+  outline: 0;
+}
